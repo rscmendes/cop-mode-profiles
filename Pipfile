@@ -6,8 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pymongo = "*"
-python-dotenv = "*"
+pymongo = "~=3.11"
+pandas = "~=1.1"
+matplotlib = "~=3.3"
+sklearn = "~=0.0"
+python-dotenv = "~=0.17"
+notebook = "*"
 
 [requires]
 python_version = "3.8"
